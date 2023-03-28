@@ -1,0 +1,59 @@
+
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1158px;
+    }
+
+
+  .header-mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    font-style: normal;}
+
+.hero{
+background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office.jpg);
+}
+.hero-titel{
+    font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        color: var(--primary-white-color);
+        margin-bottom: 48px;
+        width: 496px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto
+}
+ .section-team {
+            padding-top: 120px;
+            padding-bottom: 120px;}
+
+ .team-item {
+    width: calc((100% - 72px) / 4);
+ }
+ .team-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+ }
+ 
+ 
+        }
+
+
+            
+
+           
+       
+
+ 
+
+   
+
