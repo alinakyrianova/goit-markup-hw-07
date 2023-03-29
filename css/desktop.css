@@ -28,22 +28,67 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         margin-left: auto;
         margin-right: auto
 }
+
+
+/*-------section features------*/
+
+
+
+ .illustration-content {
+     width: 264px;
+            height: 112px;
+            background-color: rgba(244, 244, 253, 1);
+            border-radius: 4px;
+            display: flex;
+             align-items: center;
+            justify-content: center;
+            margin-bottom: 8px;
+
+}
+
+
+.section {
+    padding: 120px 0;
+}
+/*------section team--------*/
  .section-team {
             padding-top: 120px;
-            padding-bottom: 120px;}
-
+            padding-bottom: 120px;
+        background-color: var(--light-color-button);
+        }
+        .section-team-titel{
+            font-size: 36px;
+                line-height: 1.1;
+                text-align: center;
+                letter-spacing: 0.02em;
+                text-transform: capitalize;
+                color: var(--dark-color);
+                margin-bottom: 72px;
+        }
  .team-item {
     width: calc((100% - 72px) / 4);
  }
  .team-list{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
+    
  }
- 
+ /*--------SEction Customers---------*/
+ .customers{
+     padding-top: 120px;
+     padding-bottom: 120px;
+     max-width: 1128px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ .customers-list {
+     display: flex;
+     gap: 24px;
+     justify-content: center;
+ }
+ .customers-container{
+    max-width: 1128px;
+ }
+
  
         }
 

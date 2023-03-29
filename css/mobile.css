@@ -2,5 +2,23 @@
     .container{
         max-width: 428px;
     }
+.container{
+    width: 100%;
+    margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
 }
+
+/*--------SEction Customers---------*/
+
+.customers-container {
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+
+
+}
+
+
  

@@ -1,7 +1,7 @@
 
 @media screen and (min-width:768px) {
     .container {
-        max-width: 756px;
+        max-width: 768px;
     }
 
         .header-navigation{
@@ -10,11 +10,7 @@
                 .header-mail{
                    flex: box;
                 }
-        .section-team {
-            padding-top: 96px;
-            padding-bottom: 96px;
-           
-        }
+       
         .hero{
             background-image: linear-gradient(rgba(46, 47, 66, 0.7),
                         rgba(46, 47, 66, 0.7)),
@@ -24,24 +20,63 @@
             font-size: 56px;
         }
 
-.team-list{
-display: flex;
+                /*section features*/
+                
 
-    flex-direction: column;
+
+/*section team*/
+ .section-team {
+     padding-top: 96px;
+     padding-bottom: 96px;
+
+ }
+.team-list{
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px 32px;
-    gap: 32px;
+    column-gap: 24px;
+    row-gap: 72px;
 }
+
 .team-item {
+    
     width: calc((100% - 24px) / 2);
 }
-    
+.list{
+    display: flex;
 }
-@media screen and(min-width: 768px) ,(max-width:1199px){
+  
+/*--------SEction Customers---------*/
+
+.customers{
+    padding-top: 96px;
+        padding-bottom: 96px;
+}
+
+
+.customers-container {
+    max-width: 768px;
+   
+}
+ .customers-list {
+     column-gap: 24px;
+ }
+
+
+}
+@media screen and (min-width: 768px) ,(max-width:1199px){
     .container-sm{
         max-width: 552px;
     }
+    .customers-item{
+        width: 168 px;
+    }
+        .customers-container {
+            max-width: 552px;
+    
+        }
+
 
 
 }
