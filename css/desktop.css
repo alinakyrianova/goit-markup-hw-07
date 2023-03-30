@@ -32,23 +32,81 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 
 /*-------section features------*/
 
+.section {
+    padding: 120px 0;
+}
 
 
- .illustration-content {
-     width: 264px;
-            height: 112px;
-            background-color: rgba(244, 244, 253, 1);
-            border-radius: 4px;
-            display: flex;
-             align-items: center;
-            justify-content: center;
-            margin-bottom: 8px;
+.section-titel {}
+
+.feature-list {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    display: flex;
+    gap: 24px;
+
+}
+
+.feature-item {
+    width: calc((100% - 72px) / 4);
+}
+
+.feature-titel {
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-color);
+    margin-bottom: 8px;
+
+}
+
+.feature-subtitel {
+
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+    width: 264px;
+}
+
+.illustration-content {
+    width: 264px;
+    height: 112px;
+    background-color: rgba(244, 244, 253, 1);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+
+
+}
+
+.illustration-list {
+    display: flex;
+    gap: 24px;
+
 
 }
 
 
-.section {
-    padding: 120px 0;
+
+.illustration-item {
+
+    justify-content: center;
+}
+
+.illustration-link {}
+
+
+
+.illustration-icon {
+    width: 64px;
+    height: 64px;
+    justify-content: center;
+
 }
 /*------section team--------*/
  .section-team {
