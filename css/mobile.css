@@ -9,13 +9,23 @@
         padding-right: 15px;
 }
 
+.hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-mob.jpg);
+}
+.header-nav-wrap{
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+
 /*--------SEction Customers---------*/
 
 .customers-container {
     padding-top: 96px;
     padding-bottom: 96px;
 }
-
 
 
 }

@@ -19,17 +19,88 @@
     </head>
 <body class="page">
     <!--header-->
-   <!---- <header class="header">
+  <header class="header">
         <div class="container header-container">
+                <a class="header-logo" href="./index.html">Web<span>Studio</span>
+                </a>
+                <div class="container-burger">
+                <button type="button" class="menu-btn-open js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg class="burger" width="32 height=22" >
+                        <use href="./images/symbol-defs-burger.svg#icon-Vector-burger-1"></use>
+                    </svg>
+                </button>
+                </div>
+
+               
+            <div class="menu-container js-menu-container is-open" id="mobile-menu">
+                <button class="hero-modal-btn js-close-menu">
+<svg class="hero-modal-btn-icon" width="8" height="8">
+    <use href="./images/symbol-defs-close-menu.svg#icon-Vector-close-menu-1"></use>
+</svg>
+                </button>
+                <ul class="mobile-menu">
+                    <li> 
+                        <a href="./index.html" class="link link-contacts">Studio</a>
+                    </li>
+                    <li>
+                      <a href="./portfolio.html" class="link">Portfolio</a>  
+                    </li>
+                    <li>
+                        <a href="./index.html" class="link">Contacts</a>
+                    </li>
+                </ul>
+<div class="menu-nav">
+    <ul class="menu-adress items">
+<li>
+    <a href="tel:+110001111111" class="tel-menu">+11 (000) 111-11-11</a>
+</li>
+<li>
+    <a href="mailto:info@devstudio.com" class=",ail-menu">info@devstudio.com</a>
+</li>
+    </ul>
+    <ul class="menu-social-list items">
+        <li class="menu-social-item">
+          <a href class="menu-social-link">
+            <svg width="24" height="24">
+<use href="./images/symbol-defs.svg#icon-instagram"></use>
+            </svg>
+          </a>  
+        </li>
+        <li class="menu-social-item">
+          <a href class="menu-social-link">
+            <svg width="24" height="24">
+<use href="./images/symbol-defs.svg#icon-twitter"></use>
+            </svg>
+
+        </li>
+        <li class="menu-social-item">
+          <a href class="menu-social-link">
+            <svg width="24" height="24">
+<use href="./images/symbol-defs.svg#icon-icon-facebook"></use>
+            </svg>
+
+        </li>
+        <liclass="menu-social-item">
+          <a href class="menu-social-link">
+            <svg width="24" height="24">
+<use href="./images/symbol-defs.svg#icon-linkedin"></use>
+            </svg>
+
+        </li>
+    </ul>
+    
+
+</div>
+
         <nav class="header-navigation">
-        <a class="header-logo" href="./index.html">Web<span>Studio</span></a>
-        <ul class="header-list list">
+    
+         <ul class="header-list list">
             <li class="header-item"><a href="./index.html" class="header-link link active">Studio</a></li>
             <li class="header-item"><a href="./portfolio.html" class="header-link link">Portfolio</a></li>
             <li class="header-item"><a href="" class="header-link link">Contacts</a></li>
         </ul>
         </nav>
-    ---adress--
+    <!--adress-->
     <address class="header-address">
         <ul class="list-address list">
         <li><a href="mailto:info@devstudio.com" class="header-mail link ">info@devstudio.com</a></li>
@@ -37,16 +108,17 @@
      </ul>
     </address>
     </div>
-</header> --->
+    </div>
+   </header> 
 <!--main-->
 <main>
  <!--hero section -->
-    <!--<section class="hero">
-        <div class="container">
+    <section class="hero">
+        <div class="container hero-container">
         <h1 class="hero-titel">Effective Solutions for Your Business</h1>
         <button type="button" data-modal-open class="hero-button btn">Order Service</button>
     </div>
-    </section>-->
+    </section>
     
 
 
@@ -127,7 +199,7 @@
         </div>
     </section>
     <!--section 3 doing-->
-    <!--<section class="doing">
+    <section class="doing">
         <div class="container">
         <h2 class="doing-titel">What are we doing</h2>
         <ul class="doing-list list">
@@ -155,14 +227,14 @@
             
         </ul>
     </div>
-    </section>-->
+    </section>
     <!--section team-->
     <section class="section-team">
         <div class="container container-sm">
         <h2 class="section-team-titel">Our Team</h2>
         <ul class="team-list list">
             <li class="team-item">
-                <img 
+                <img srcset="./images/person-img-1.jpg 1x, ./images/person-img-1-2x.jpg 2x"
                 src="./images/person-img-1.jpg" 
                 alt="persona persha"
                 width="264"
@@ -205,7 +277,7 @@
              </li>
 
                  <li class="team-item">
-                    <img 
+                    <img srcset="./images/person-img-2.jpg 1x, ./images/person-img-2-2x.jpg 2x"
                     src="./images/person-img-2.jpg" 
                     alt="persona druga"
                     width="264"
@@ -248,7 +320,7 @@
                     
             </li>
                 <li class="team-item">
-                    <img 
+                    <img srcset="./images/person-img-3.jpg 1x, ./images/person-img-3-2x.jpg 2x"
                     src="./images/person-img-3.jpg" 
                     alt="persona tretja"
                     width="264"
@@ -290,7 +362,7 @@
                     </div>
                 </li>
                 <li class="team-item">
-                    <img 
+                    <img srcset="./images/person-img-4.jpg 1x, ./images/person-img-4-2x.jpg 2x"
                     src="./images/person-img-4.jpg" 
                     alt="persona chetverta"
                     width="264"
@@ -390,9 +462,9 @@
 </main>
 
     <!--footer-->
-<!--<footer class="footer">
-    <div class="container">
-        <div class="">
+<footer class="footer">
+    <div class="container footer-item">
+        <div class="footer-group">
         <a class="footer-logo link" href="./index.html">Web<span>Studio</span></a>
          <p class="footer-subtitel">Increase the flow of customers and sales for your business with digital marketing & growth solutions.
         </p></div>
@@ -442,7 +514,7 @@
     </div>
 
 </div>
-</footer>-->
+</footer>
 <!--Section backdrop-modal-->
  <!--<div class="backdrop is-hidden" data-modal>
     <div class="modal">
@@ -503,7 +575,9 @@
             </form>
     </div>
     </div>-->
- 
+<script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
 <script src="./js/modal.js"></script>
 <script src="./js/ mobile-menu.js"></script>
 </body>
