@@ -21,44 +21,46 @@
     <!--header-->
   <header class="header">
         <div class="container header-container">
-                <a class="header-logo" href="./index.html">Web<span>Studio</span>
+            <div class="header-container-mobile"></div>
+                <a href="./index.html" class="header-logo">Web<span>Studio</span>
                 </a>
-                <div class="container-burger">
-                <button type="button" class="menu-btn-open js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-                    <svg class="burger" width="32 height=22" >
+                
+                <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                    <svg class="toggle-icon" >
                         <use href="./images/symbol-defs-burger.svg#icon-Vector-burger-1"></use>
                     </svg>
                 </button>
-                </div>
+            </div>
 
                
-            <div class="menu-container js-menu-container is-open" id="mobile-menu">
-                <button class="hero-modal-btn js-close-menu">
-<svg class="hero-modal-btn-icon" width="8" height="8">
+            <div class="menu-container js-menu-container" id="mobile-menu">
+                <button  type="button" class="modal-btn menu-button js-close-menu">
+                    
+<svg class="modal-btn-icon" width="8" height="8">
     <use href="./images/symbol-defs-close-menu.svg#icon-Vector-close-menu-1"></use>
 </svg>
                 </button>
-                <ul class="mobile-menu">
+                <ul class="mobile-menu list">
                     <li> 
-                        <a href="./index.html" class="link link-contacts">Studio</a>
+                        <a href="./index.html" class="mobile-menu-link mobile-menu-current link">Studio</a>
                     </li>
                     <li>
-                      <a href="./portfolio.html" class="link">Portfolio</a>  
+                      <a href="./portfolio.html" class="mobile-menu-link link">Portfolio</a>  
                     </li>
                     <li>
-                        <a href="./index.html" class="link">Contacts</a>
+                        <a href="./index.html" class="mobile-menu-link link">Contacts</a>
                     </li>
                 </ul>
-<div class="menu-nav">
-    <ul class="menu-adress items">
+<div class="mobile-menu-contacts-wrap">
+    <ul class="mobile-menu-contacts list">
 <li>
-    <a href="tel:+110001111111" class="tel-menu">+11 (000) 111-11-11</a>
+    <a href="tel:+110001111111" class=" link menu-tel">+11 (000) 111-11-11</a>
 </li>
 <li>
-    <a href="mailto:info@devstudio.com" class=",ail-menu">info@devstudio.com</a>
+    <a href="mailto:info@devstudio.com" class="link menu-email">info@devstudio.com</a>
 </li>
     </ul>
-    <ul class="menu-social-list items">
+    <ul class="menu-social-list items menu-list-icon list">
         <li class="menu-social-item">
           <a href class="menu-social-link">
             <svg width="24" height="24">
@@ -91,6 +93,10 @@
     
 
 </div>
+            </div>
+            <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+                integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+                crossorigin="anonymous"></script>
 
         <nav class="header-navigation">
     
@@ -575,9 +581,7 @@
             </form>
     </div>
     </div>-->
-<script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-    crossorigin="anonymous"></script>
+
 <script src="./js/modal.js"></script>
 <script src="./js/ mobile-menu.js"></script>
 </body>
