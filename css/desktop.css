@@ -3,6 +3,9 @@
     .container {
         max-width: 1158px;
     }
+    .link{
+        text-decoration: none;
+    }
     .header{  
     background-color: var(--primary-white-color);
          border-bottom: 1px solid #E7E9FC;
@@ -52,10 +55,20 @@
     margin-left: auto;
 
 }
-.list-address {
+.adress-list{
     display: flex;
     gap: 40px;
         
+}
+.adress-link{
+    transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: var(--transition-timing-function);
+        display: block;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            color: var(--primary-text-color);
+            font-style: normal;
 }
   .header-mail.header-item:not(:last-child){
     margin-right: 40px;

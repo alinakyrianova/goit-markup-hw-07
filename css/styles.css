@@ -204,7 +204,7 @@ padding-bottom: 24px;
 }
 
 .mobile-menu-current {
-    color: var(--active-color);
+    color: var(--primary-brand-color);
 }
 
 .mobile-menu-contacts-wrap {
@@ -222,12 +222,12 @@ padding-bottom: 24px;
     font-weight: 700;
     font-size: 25px;
     line-height: 1.4;
-    color: var(--brand-color);
+    color: var(--primary-brand-color);
     text-transform: capitalize;
 }
 
 .menu-email {
-    color: var(--primary-text-color);
+    color: var(--text-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -241,7 +241,7 @@ padding-bottom: 24px;
 .mobile-icon {
     width: 24px;
     height: 24px;
-    fill: var(--light-color);
+    fill: var(--cornflower-color);
 }
 .header-logo span {
     color: var(--dark-color);
@@ -271,7 +271,7 @@ padding-bottom: 24px;
 
 
 
-.list-address  {
+.adress-list  {
     display: none;
    
    
@@ -297,18 +297,17 @@ padding-bottom: 24px;
     border-radius: 2px;
 }
 .header-address {
-    margin-left: auto;
+   margin-left: auto;
    
 }
 .header-container {
     
     align-items: center;
     position: relative;
-    padding-top: 24px;
-    padding-bottom: 24px;
+   
 }
 
-.header-mail {
+.adress-list {
     display: none;
     font-size: 16px;
         line-height: 1.5;
@@ -326,7 +325,7 @@ padding-bottom: 24px;
     color: var(--primary-brand-color);
 }
 
-.header-telephone {
+.adress-list {
     display: none;
     font-size: 16px;
     line-height: 1.5;
@@ -342,42 +341,46 @@ padding-bottom: 24px;
 .header-mail:focus {
     color: var(--primary-brand-color);
 }
-.menu-btn-open:is(.hover, :focus){
-        background-color: rgba(0, 0, 0, 0.1);
 
+.menu-button{
+    position: absolute;
+        top: 24px;
+        right: 24px;
+        background: rgba(231, 233, 252, 0.1);
+        border: 1px solid rgba(46, 47, 66, 0.1);
+        margin: 0px;
 }
 
-
-
-
-
-.hero-modal-btn {
+.modal-btn-icon{
     position: absolute;
-    right: 24px;
-    top: 24px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 8px;
+        height: 8px;
+        fill: currentColor;
+}
+
+.modal-btn {
+   
+    
     border: 1px solid rgba(0, 0, 0, 0.1);
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     width: 24px;
     height: 24px;
     border-radius: 50%;
     background-color: var(--white-logo-color);
+    color: var(--text-color);
+    margin-left: auto;
+    margin-bottom: 24px;
+    
 
-    transition-property: fill, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
-.hero-modal-btn-icon {
-    display: flex;
-}
 
-.hero-modal-btn:is(:hover, :focus),
-.hero-modal-btn-icon:is(:hover, :focus) {
-    fill: var(--white-color);
-    background-color: var(--hero-btn-color);
-}
 
 
 /*------hero------*/

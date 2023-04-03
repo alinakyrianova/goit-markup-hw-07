@@ -4,24 +4,25 @@
         max-width: 767px;
     }
 .header{
-    padding: 15px 0;
+    
     background-color: var(--primary-white-color);
         border-bottom: 1px solid #E7E9FC;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-
+.header-container{
+    display: flex;
+    align-items: center;
+}
 .header-list{
     display: flex;
     align-items: center;
     gap: 40px;
     margin-left: 120px;
 }
-.list-address {
-    display: flex;
-    gap: 40px;
 
+.header-container-mobile {
+    display: none;
 }
-
 .header-link {
     font-weight: 500;
     font-size: 16px;
@@ -42,34 +43,14 @@
                 display: flex;
                 align-items: center;
         }
- .header-mail{
-    font-size: 12px;
-                    line-height: calc(16 / 12);
-                        font-weight: 400;
-                        line-height: 1.5;
-                        letter-spacing: 0.04em;
-                        color: var(--text-color);
-                        font-style: normal;
-                        text-decoration: none;
-                        margin-left: auto;
-                        transition-property: color;
-                        transition-duration: 250ms;
-                        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-                
-                    }
+ 
                     
-                
- .header-address {
- }
+      .header-adress{
+        display: flex;
+      }          
 
-.header-telephone {
-                      
-                       font-size: 16px;
-                       line-height: 1.5;
-                       letter-spacing: 0.02em;
-                       color: var(--text-color);
-                       font-style: normal;
-                   }
+
+
  .header-telephone:hover,
 .header-mail:focus {
                                        color: var(--primary-brand-color);
@@ -207,8 +188,11 @@
 
 
 }
+.icon-titel {
+    text-align: left;
 }
-@media screen and (min-width: 768px) ,(max-width:1199px){
+}
+@media screen and (min-width: 768px) and (max-width:1199px){
     .container-sm{
         max-width: 552px;
     }
@@ -220,19 +204,19 @@
     
         }
 
-.icon-titel {
-    text-align: left;
-}
+
         
     
-.list-address {
-            display: flex;
-                flex-wrap: wrap;
-                max-width: 119px;
-                text-align: right;
-                row-gap: 4px;
+.adress-list {
+            flex-direction: column;
+            gap: 15px;
             
             }
-         
+   .adress-link {
+       display: block;
+       font-size: 12px;
+       line-height: 1.16;
+       padding: 0px;
+   }
 
 }
