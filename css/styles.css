@@ -381,11 +381,13 @@ padding-bottom: 24px;
 
 /*------hero------*/
 .hero {
-   max-width: 428px;
+   max-width: 1440px;
     padding-top: 112px;
     padding-bottom: 112px;
     background-color: var(--dark-color);
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         /*padding-top: 188px;
         padding-bottom: 188px;*/
         background-image: linear-gradient(rgba(46, 47, 66, 0.7),
@@ -393,6 +395,7 @@ padding-bottom: 24px;
             url(../images/people-office-mob.jpg);
             background-repeat: no-repeat;
             background-size: cover;
+            background-position: center;
 
     /*background-color: var(--dark-color);
     text-align: center;
