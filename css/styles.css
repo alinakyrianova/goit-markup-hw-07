@@ -271,11 +271,6 @@ padding-bottom: 24px;
 
 
 
-.adress-list  {
-    display: none;
-   
-   
-}
 
 
 
@@ -320,25 +315,15 @@ padding-bottom: 24px;
    
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.adress-list:hover,
+.adress-list:focus {
     color: var(--primary-brand-color);
 }
 
-.adress-list {
-    display: none;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--text-color);
-    font-style: normal;
-    
 
 
-}
-
-.header-telephone:hover,
-.header-mail:focus {
+.adress-list:hover,
+.adress-list:focus {
     color: var(--primary-brand-color);
 }
 
