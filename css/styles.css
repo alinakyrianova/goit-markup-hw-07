@@ -291,8 +291,10 @@ padding-bottom: 24px;
     left: 0;
     border-radius: 2px;
 }
-.header-address {
+.header-adress {
+    display: none;
    margin-left: auto;
+   align-items: center;
    
 }
 .header-container {
@@ -303,7 +305,9 @@ padding-bottom: 24px;
 }
 
 .adress-list {
-    display: none;
+    display:flex;
+    gap: 40px;
+   
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -325,6 +329,13 @@ padding-bottom: 24px;
 .adress-list:hover,
 .adress-list:focus {
     color: var(--primary-brand-color);
+}
+.adress-link{
+        display: block;
+            padding-top: 24px;
+            padding-bottom: 24px;
+            color: var(--primary-text-color);
+            font-style: normal;
 }
 
 .menu-button{
