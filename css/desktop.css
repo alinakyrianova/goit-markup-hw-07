@@ -15,18 +15,14 @@
          0px 1px 1px rgba(46, 47, 66, 0.16),
          0px 1px 6px rgba(46, 47, 66, 0.08);
         }
-        .header-logo{
-            margin-left: 156px;
-        }
+      
         
                 .header-navigation {
                     
                         display: flex;
                         align-items: center;
                 }
-                .header-item:not(:last-child){
-                    margin-right: 40px;
-                }
+               
 .header-container {
 
         display: flex;
@@ -66,11 +62,7 @@
     transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: var(--transition-timing-function);
-        display: block;
-            padding-top: 24px;
-            padding-bottom: 24px;
-            color: var(--primary-text-color);
-            font-style: normal;
+        
 }
   .header-mail.header-item:not(:last-child){
     margin-right: 40px;
@@ -149,7 +141,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 /*-------section features------*/
 
 .section {
-    padding: 120px 0;
+    
 }
 
 
@@ -250,9 +242,8 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
  .customers{
      padding-top: 120px;
      padding-bottom: 120px;
-     max-width: 1128px;
-     margin-left: auto;
-     margin-right: auto;
+    
+     
  }
  .customers-list {
      display: flex;
@@ -388,22 +379,20 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     margin-bottom: 16px;
 }
  .icon-content {
-     margin-left: 120px;
+     margin-right: 80px;
+     margin-bottom: 0px;
 
  }
  .subscribe-content {
     margin-left: auto;
-    width: 453px;
-   height: 80px;
+   
 
 
  }
 
  .subscribe-form {
-     
-     align-items: flex-start;
      flex-direction: row;
-     justify-content: flex-start;
+     gap: 24px;
  }
 .subscribe-btn {
     margin-left: 0;
@@ -419,15 +408,7 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
 }
 
 .subscribe-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-white-color);
-    margin-bottom: 16px;
-    text-align: left;
+    
 }
 
 .subscribe-form-input::placeholder {
@@ -442,6 +423,14 @@ background-image: linear-gradient(rgba(46, 47, 66, 0.7),
     color: var(--primary-white-color);
 }
 
+.subscribe-form-input{
+    height: 40px;
+    border: 1px solid var(--primary-white-color);
+        transition: border-color;
+        transition-duration: 250ms;
+        transition-timing-function: var(--transition-timing-function);
+    
+}
         }
 
 
